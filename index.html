@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Technical Documentation</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav id="navbar">
+    <header>Technical Documentation</header>
+    <a href="#Introduction" class="nav-link">Introduction</a>
+    <a href="#HTML_Basics" class="nav-link">HTML Basics</a>
+    <a href="#HTML_Advanced" class="nav-link">HTML Advanced</a>
+    <a href="#CSS_Basics" class="nav-link">CSS Basics</a>
+    <a href="#CSS_Advanced" class="nav-link">CSS Advanced</a>
+    <a href="#JavaScript_Basics" class="nav-link">JavaScript Basics</a>
+    <a href="#JavaScript_Advanced" class="nav-link">JavaScript Advanced</a>
+    <a href="#Responsive_Design" class="nav-link">Responsive Design</a>
+    <a href="#Version_Control" class="nav-link">Version Control</a>
+  </nav>
+
+  <!-- Main Documentation Content -->
+  <main id="main-doc">
+    <!-- Section 1: Introduction -->
+    <section class="main-section" id="Introduction">
+      <header>Introduction</header>
+      <p>This documentation provides an overview of web development technologies including HTML, CSS, and JavaScript.</p>
+      <p>Web development is a constantly evolving field, and it’s important to keep up with the latest practices.</p>
+      <p>Whether you’re a beginner or an experienced developer, this guide can help enhance your understanding of the fundamentals.</p>
+      <p>We will cover each of the core technologies needed to create a functional website.</p>
+      <p>Let’s get started!</p>
+    </section>
+
+    <!-- Section 2: HTML Basics -->
+    <section class="main-section" id="HTML_Basics">
+      <header>HTML Basics</header>
+      <p>HTML stands for HyperText Markup Language and is used to structure content on the web.</p>
+      <p>Here are some basic HTML elements:</p>
+      <ul>
+        <li><code>&lt;h1&gt;</code>: Defines the main heading.</li>
+        <li><code>&lt;p&gt;</code>: Defines a paragraph.</li>
+        <li><code>&lt;a&gt;</code>: Defines a hyperlink.</li>
+        <li><code>&lt;div&gt;</code>: Defines a division or section.</li>
+        <li><code>&lt;span&gt;</code>: Defines a small section in a document.</li>
+      </ul>
+      <p>Here’s a simple example:</p>
+      <code>
+        &lt;!DOCTYPE html&gt;<br>
+        &lt;html&gt;<br>
+        &nbsp;&nbsp;&lt;head&gt;&lt;/head&gt;<br>
+        &nbsp;&nbsp;&lt;body&gt;&lt;/body&gt;<br>
+        &lt;/html&gt;
+      </code>
+      <p>HTML documents are made up of elements, which are defined by tags. Tags can have attributes that provide additional information about the element.</p>
+      <p>For more information, visit: <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">MDN Web Docs - HTML</a></p>
+    </section>
+
+    <!-- Section 3: HTML Advanced -->
+    <section class="main-section" id="HTML_Advanced">
+      <header>HTML Advanced</header>
+      <p>Advanced HTML features help improve the semantics and accessibility of your web pages.</p>
+      <p>Some key concepts include:</p>
+      <ul>
+        <li><code>&lt;article&gt;</code>: Represents a self-contained piece of content.</li>
+        <li><code>&lt;section&gt;</code>: Defines a thematic grouping of content.</li>
+        <li><code>&lt;header&gt;</code>: Contains introductory content or navigational links.</li>
+        <li><code>&lt;footer&gt;</code>: Defines footer content for a document or section.</li>
+        <li><code>&lt;aside&gt;</code>: Represents content indirectly related to the main content.</li>
+      </ul>
+      <p>Example of semantic HTML:</p>
+      <code>
+        &lt;article&gt;<br>
+        &nbsp;&nbsp;&lt;header&gt;&lt;h2&gt;Article Title&lt;/h2&gt;&lt;/header&gt;<br>
+        &nbsp;&nbsp;&lt;p&gt;This is the main content of the article.&lt;/p&gt;<br>
+        &nbsp;&nbsp;&lt;footer&gt;&lt;p&gt;Published on 2023-09-30&lt;/p&gt;&lt;/footer&gt;<br>
+        &lt;/article&gt;
+      </code>
+      <p>Using semantic tags helps search engines and assistive technologies understand the structure of your content.</p>
+      <p>For more information, visit: <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element" target="_blank">MDN Web Docs - HTML Elements</a></p>
+    </section>
+
+    <!-- Section 4: CSS Basics -->
+    <section class="main-section" id="CSS_Basics">
+      <header>CSS Basics</header>
+      <p>CSS stands for Cascading Style Sheets and is used to style and layout web pages.</p>
+      <p>Common CSS properties include:</p>
+      <ul>
+        <li><code>color</code>: Sets the text color.</li>
+        <li><code>background-color</code>: Sets the background color.</li>
+        <li><code>font-size</code>: Sets the font size.</li>
+        <li><code>margin</code>: Sets the margin area.</li>
+        <li><code>padding</code>: Sets the padding area.</li>
+      </ul>
+      <p>Example of CSS usage:</p>
+      <code>
+        body {<br>
+        &nbsp;&nbsp;background-color: lightblue;<br>
+        &nbsp;&nbsp;color: white;<br>
+        }
+      </code>
+      <p>CSS can be added directly in the HTML file using the <code>&lt;style&gt;</code> tag, inline with a <code>style</code> attribute, or through an external stylesheet.</p>
+      <p>For more information, visit: <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">MDN Web Docs - CSS</a></p>
+    </section>
+
+    <!-- Section 5: CSS Advanced -->
+    <section class="main-section" id="CSS_Advanced">
+      <header>CSS Advanced</header>
+      <p>Advanced CSS techniques allow for more complex designs and layouts.</p>
+      <p>Key concepts include:</p>
+      <ul>
+        <li><strong>Flexbox:</strong> A layout model that provides a more efficient way to lay out, align, and distribute space among items in a container.</li>
+        <li><strong>Grid:</strong> A layout system that allows you to create complex and responsive layouts with rows and columns.</li>
+        <li><strong>Transitions:</strong> CSS properties that enable changes to occur over a specified duration.</li>
+        <li><strong>Animations:</strong> Keyframe-based animations for more dynamic effects.</li>
+        <li><strong>Responsive Units:</strong> Using relative units like <code>em</code>, <code>rem</code>, and <code>vh/vw</code> for better scalability.</li>
+      </ul>
+      <p>Example of Flexbox:</p>
+      <code>
+        .container {<br>
+        &nbsp;&nbsp;display: flex;<br>
+        &nbsp;&nbsp;justify-content: space-between;<br>
+        }
+      </code>
+      <p>Example of CSS Grid:</p>
+      <code>
+        .grid-container {<br>
+        &nbsp;&nbsp;display: grid;<br>
+        &nbsp;&nbsp;grid-template-columns: repeat(3, 1fr);<br>
+        }
+      </code>
+      <p>For more information, visit: <a href="https://css-tricks.com/snippets/css/complete-guide-grid/" target="_blank">CSS-Tricks - CSS Grid</a></p>
+    </section>
+
+    <!-- Section 6: JavaScript Basics -->
+    <section class="main-section" id="JavaScript_Basics">
+      <header>JavaScript Basics</header>
+      <p>JavaScript is a programming language used to make web pages interactive.</p>
+      <p>Common uses include:</p>
+      <ul>
+        <li>Manipulating the DOM.</li>
+        <li>Handling events.</li>
+        <li>Validating forms.</li>
+        <li>Creating animations.</li>
+        <li>Communicating with servers.</li>
+      </ul>
+      <p>Basic syntax example:</p>
+      <code>
+        let greeting = "Hello, World!";<br>
+        console.log(greeting);
+      </code>
+      <p>JavaScript can be added directly in HTML files with the <code>&lt;script&gt;</code> tag, inline with an event attribute, or through an external JavaScript file.</p>
+      <p>For more information, visit: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">MDN Web Docs - JavaScript</a></p>
+    </section>
+
+    <!-- Section 7: JavaScript Advanced -->
+    <section class="main-section" id="JavaScript_Advanced">
+      <header>JavaScript Advanced</header>
+      <p>Advanced JavaScript techniques allow for more complex programming patterns and functionality.</p>
+      <p>Key concepts include:</p>
+      <ul>
+        <li><strong>Asynchronous Programming:</strong> Using callbacks, promises, and async/await to handle asynchronous code execution.</li>
+        <li><strong>JavaScript ES6 Features:</strong> Arrow functions, template literals, destructuring, and modules.</li>
+        <li><strong>DOM Manipulation:</strong> Using JavaScript to change HTML elements dynamically.</li>
+        <li><strong>Event Delegation:</strong> A technique for managing events efficiently.</li>
+        <li><strong>JavaScript Frameworks:</strong> Introduction to popular frameworks such as React, Angular, and Vue.js.</li>
+      </ul>
+      <p>Example of a promise:</p>
+      <code>
+        const myPromise = new Promise((resolve, reject) => {<br>
+        &nbsp;&nbsp;setTimeout(() => resolve("Success!"), 1000);<br>
+        });<br>
+        myPromise.then(response => console.log(response));
+      </code>
+      <p>For more information, visit: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide" target="_blank">MDN Web Docs - JavaScript Guide</a></p>
+    </section>
+
+    <!-- Section 8: Responsive Design -->
+    <section class="main-section" id="Responsive_Design">
+      <header>Responsive Design</header>
+      <p>Responsive design ensures that web applications look good on a variety of devices and screen sizes.</p>
+      <p>Key principles include:</p>
+      <ul>
+        <li><strong>Fluid Grids:</strong> Use percentages rather than fixed sizes for layout elements.</li>
+        <li><strong>Flexible Images:</strong> Ensure images scale to fit their containing elements.</li>
+        <li><strong>Media Queries:</strong> Apply different styles based on device characteristics.</li>
+      </ul>
+      <p>Example of a media query:</p>
+      <code>
+        @media (max-width: 600px) {<br>
+        &nbsp;&nbsp;body {<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;background-color: lightgreen;<br>
+        &nbsp;&nbsp;}<br>
+        }
+      </code>
+      <p>For more information, visit: <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Responsive_design" target="_blank">MDN Web Docs - Responsive Design</a></p>
+    </section>
+
+    <!-- Section 9: Version Control -->
+    <section class="main-section" id="Version_Control">
+      <header>Version Control</header>
+      <p>Version control systems (VCS) help developers manage changes to source code over time.</p>
+      <p>Common VCS include:</p>
+      <ul>
+        <li><strong>Git:</strong> A distributed version control system that allows multiple developers to work on a project simultaneously.</li>
+        <li><strong>GitHub:</strong> A platform that hosts Git repositories and provides collaboration tools.</li>
+        <li><strong>Subversion (SVN):</strong> A centralized version control system.</li>
+      </ul>
+      <p>Basic Git commands include:</p>
+      <ul>
+        <li><code>git init</code>: Initializes a new Git repository.</li>
+        <li><code>git clone</code>: Creates a copy of a repository.</li>
+        <li><code>git add</code>: Stages changes for commit.</li>
+        <li><code>git commit</code>: Records changes to the repository.</li>
+        <li><code>git push</code>: Sends changes to a remote repository.</li>
+      </ul>
+      <p>For more information, visit: <a href="https://git-scm.com/doc" target="_blank">Git Documentation</a></p>
+    </section>
+  </main>
+</body>
+</html>
